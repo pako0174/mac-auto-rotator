@@ -1,6 +1,11 @@
 <p align="center">
   <img src="preview.png" width="600">
 </p>
+## 🖥️ CLI Preview
+
+<p align="center">
+  <img src="UI.JPG" width="700">
+</p>
 ## 🔬 Context
 
 This tool is part of a broader exploration into network identity manipulation and behavioral signal variability.
