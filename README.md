@@ -1,109 +1,74 @@
-<p align="center">
-  <img src="preview.png" width="600">
-</p>
-## 🖥️ CLI Preview
-## 🎬 Live Demo
+🚀 MAC Identity Rotator
+Network Identity Manipulation · Privacy Testing · Behavior Simulation
+<p align="center"> <img src="preview.png" width="700"> </p> <p align="center"> <a href="https://asciinema.org/a/LKYfP2juDiyddvu4"> <img src="https://asciinema.org/a/LKYfP2juDiyddvu4.svg" /> </a> </p> <p align="center"> <img src="UI.JPG" width="750"> </p>
+⚡ What this is (in 3 seconds)
 
-<p align="center">
-  <a href="https://asciinema.org/a/LKYfP2juDiyddvu4">
-    <img src="https://asciinema.org/a/LKYfP2juDiyddvu4.svg" />
-  </a>
-</p>
+A lightweight CLI engine that lets you control, rotate, and simulate network identity in real time.
 
-<p align="center">
-  <img src="UI.JPG" width="700">
-</p>
-## 🔬 Context
+Built for privacy testing, detection research, and behavioral analysis — not just MAC spoofing.
 
-This tool is part of a broader exploration into network identity manipulation and behavioral signal variability.
+🧠 Why this matters
 
-It focuses on how low-level identifiers (like MAC addresses) can be controlled, rotated, and analyzed in controlled environments.
+Most systems assume one thing:
+👉 a device has a stable identity.
 
----
+This tool breaks that assumption.
 
-## 🧠 What this actually enables
+It lets you:
 
-* Simulating device identity changes
-* Testing correlation mechanisms
-* Exploring detection boundaries
-* Understanding how systems rely on persistent identifiers
-
----
-
-## ⚡ Bigger direction
-
-This is a minimal implementation of a larger idea:
-
-Building modular tools for identity-layer manipulation and behavior simulation across networked systems.
-
-# MAC Address Auto Rotator (CLI)
-
-Lightweight CLI tool for rotating MAC addresses on Linux interfaces in real time.
-
----
-
-## Why I built this
-
-During work on network behavior simulation and privacy testing in isolated lab environments, I needed a simple and reliable way to:
-
-* Randomize MAC addresses safely
-* Avoid vendor conflicts (LAA compliance)
-* Run in headless environments (SSH / VM)
-* Control behavior dynamically without restarting
-
-This tool was built to solve that.
-
----
-
-## Features
-
-* Locally Administered MAC generation (safe, non-conflicting)
-* Threaded background rotation engine
-* Interactive CLI control
-* Dry-run mode for safe testing
-* File logging (audit trail)
-
----
-
-## Usage
-
-```bash
+simulate identity drift
+test correlation mechanisms
+observe tracking behavior
+explore how systems react when identity is unstable
+🔬 What you can actually do
+🔁 Rotate MAC addresses continuously
+🧪 Simulate multiple “devices” on the same interface
+🧠 Test detection & tracking logic
+📡 Analyze how networks react to identity changes
+🕵️‍♂️ Reduce passive tracking signals
+⚙️ Core capabilities
+✔️ Locally Administered MAC generation (no vendor conflicts)
+✔️ Real-time rotation engine (threaded)
+✔️ Interactive CLI control
+✔️ Dry-run mode (safe testing)
+✔️ Logging system (full audit trail)
+✔️ Works over SSH / headless environments
+🎯 Use cases
+Privacy research
+Network behavior simulation
+Anti-tracking testing
+Detection system validation
+Lab-based cybersecurity experiments
+🚀 Quick start
 sudo python3 mac_rotator.py
-```
 
 Optional:
 
-```bash
 sudo python3 mac_rotator.py --interface eth0 --interval 10
-```
+🎮 Controls
+s → start rotation
+p → pause
+c → rotate instantly
+q → quit
+🧩 Environment
+Linux (Debian / Ubuntu)
+VM / Lab / Isolated network
+SSH compatible
+⚠️ Important
+Requires root privileges
+Intended for controlled lab environments only
+Use responsibly
+🧠 Bigger vision
 
----
+This is not just a tool.
 
-## Controls
+It’s a building block toward:
 
-* s → start rotation
-* p → stop
-* c → change immediately
-* q → quit
+Identity-layer manipulation engines
+Behavioral signal simulation
+Advanced network research systems
 
----
-
-## Environment
-
-* Debian / Linux
-* Headless / SSH
-* Local VM / lab usage
-
----
-
-## Notes
-
-* Requires root privileges
-* Designed for controlled environments only
-
----
-
-## Author
+👤 Author
 
 Mikel
-Cybersecurity Researcher | Offensive Security | Network Behavior Analysis
+Offensive Security · Network Behavior Analysis · AI + Signal Research
