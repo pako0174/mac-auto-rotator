@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="preview.png" width="600">
+</p>
+
 # MAC Address Auto Rotator (CLI)
 
 Lightweight CLI tool for rotating MAC addresses on Linux interfaces in real time.
