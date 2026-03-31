@@ -2,6 +2,13 @@
   <img src="preview.png" width="600">
 </p>
 ## 🖥️ CLI Preview
+## 🎬 Live Demo
+
+<p align="center">
+  <a href="https://asciinema.org/a/LKYfP2juDiyddvu4">
+    <img src="https://asciinema.org/a/LKYfP2juDiyddvu4.svg" />
+  </a>
+</p>
 
 <p align="center">
   <img src="UI.JPG" width="700">
