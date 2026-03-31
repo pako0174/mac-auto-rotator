@@ -1,6 +1,28 @@
 <p align="center">
   <img src="preview.png" width="600">
 </p>
+## 🔬 Context
+
+This tool is part of a broader exploration into network identity manipulation and behavioral signal variability.
+
+It focuses on how low-level identifiers (like MAC addresses) can be controlled, rotated, and analyzed in controlled environments.
+
+---
+
+## 🧠 What this actually enables
+
+* Simulating device identity changes
+* Testing correlation mechanisms
+* Exploring detection boundaries
+* Understanding how systems rely on persistent identifiers
+
+---
+
+## ⚡ Bigger direction
+
+This is a minimal implementation of a larger idea:
+
+Building modular tools for identity-layer manipulation and behavior simulation across networked systems.
 
 # MAC Address Auto Rotator (CLI)
 
